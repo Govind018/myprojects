@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "257752857724",
+    "firebase_url": "https://quizit-bb699.firebaseio.com",
+    "project_id": "quizit-bb699",
+    "storage_bucket": "quizit-bb699.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257752857724:android:be6d4df1f5db09ec",
+        "android_client_info": {
+          "package_name": "com.technical.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257752857724-kqu9noq9qfdngf0hkgsjqjfvq4h9lnkj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "257752857724-qbpo554l3u9d2j7gas4ieq31pq6tgh9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdiGLr-6kL1dmxdWHdqDDkFRRmft8f8ko"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

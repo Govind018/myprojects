@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.technical.quiz.views.activities.CategoryActivity">
+
+    <include
+        android:id="@+id/cat_toolbar"
+        layout="@layout/toolbar"></include>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cat_toolbar"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list_categories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cat_toolbar"
+            android:choiceMode="multipleChoice">
+
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/btn_login_selector"
+                android:text="Submit"
+                android:onClick="doSubmit"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
